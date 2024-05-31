@@ -1,0 +1,142 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*////////////////////////////////////////// Example-1//////////////////////////// */
+.container{
+	display: grid;
+	height: 90vh;
+	grid-template-columns: 30% 50% 20%;
+	grid-template-rows: 10% 10% 80%;
+	gap: 30px;
+}  
+
+.header{
+	background-color: blue;
+	grid-row: 1/2;
+	grid-column: 1/4;	
+}
+
+.nav{
+	background-color: aqua;
+	grid-row: 2/3;
+	grid-column: 1/3;	
+} 
+
+.context{
+	background-color: brown;	
+	grid-row: 2/4;
+}
+
+.aside{
+	background-color: blueviolet;
+}
+.footer{
+	background-color: bisque;
+} 
+
+
+/* .container {
+    background-color: azure;
+    height: 90vh;
+    width: 90vw;
+    display: grid;
+    grid-template-columns: 80% 10% 10%;
+    grid-template-rows: 10% 80% 10%;
+    
+  }
+  .header {
+      height: 200px;
+    background-color: blue;
+    grid-column: 1/4;
+    grid-row: 1/2;
+   margin-bottom: 30px;
+  }
+  .nav {
+    background-color: brown;
+    grid-column:1/2
+  }
+  .context {
+    background-color: blueviolet;
+    
+  }
+  .aside {
+    background-color: blanchedalmond;
+  }
+  .footer {
+    background-color: aqua;
+    grid-column: 1/4;
+    grid-row:3/4;
+  } */
+
+
+/*////////////////////////////////////////// Example-2//////////////////////////// */
+  /* .container{
+	display: grid;
+	height: 90vh;
+	width: 90vw;
+	grid-template-columns: 10% 80% 10%;
+	grid-template-rows: 10% 80% 10%;
+	gap:30px;
+}
+
+.header{
+	background-color: blue;
+	grid-row: 1/2;
+	grid-column: 1/4;
+}
+
+.nav{
+	background-color: aqua;
+}
+
+.context{
+	background-color: brown;	
+}
+
+.aside{
+	background-color: blueviolet;
+}
+.footer{
+	background-color: bisque;
+	grid-column: 1/4;
+	grid-row:3/4 ;
+}  */
+
+
+/*////////////////////////////////////////// Example-1//////////////////////////// */
+/* .container{
+    display: grid;
+    height: 100%;
+    width: 100%;
+    grid-template-columns: 25% 50% 25%;
+    grid-template-rows: 15px 15px 80px 20px;
+    gap: 10px;
+   
+}
+
+.header{
+    background-color: blueviolet;
+    grid-column: 1/4;
+    grid-row: 1/2;
+}
+.nav{
+    background-color: aquamarine;
+    grid-column: 1/4;
+    grid-row: 2/3;
+}
+.context{
+    background-color: rgb(9, 226, 103);
+}
+.aside{
+    background-color: rgb(174, 235, 70);
+}
+.footer{
+    background-color: rgb(238, 151, 38);
+    grid-column: 1/4;
+}
+.sidebar{
+    background-color: rgb(250, 46, 229);
+} */

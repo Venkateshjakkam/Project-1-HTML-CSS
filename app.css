@@ -1,0 +1,88 @@
+.main {
+    color: white;
+    background: linear-gradient(rgba(8, 0, 58, 0.7), rgba(8, 0, 58, 0.7)),
+      url("https://img.freepik.com/free-photo/html-css-collage-concept_23-2150061955.jpg?size=626&ext=jpg&ga=GA1.1.2082370165.1716422400&semt=ais_user");
+      float: left;
+      width: 820px;
+      height: 700px;
+      padding-left: 80px;
+      
+  }
+  .main h1 {
+      font-size: 56px;
+  }
+  
+  .logo {
+    width: 50px;
+  }
+  .navBar {
+    display: flex;
+    /* gap: 350px; */
+    padding: 10px;
+    background-color: black;
+    color: white;
+    justify-content: space-around;
+  }
+  .course {
+    display: flex;
+    gap: 20px;
+    line-height: 0;
+    margin-top: 0;
+    justify-content: space-between;
+  }
+  button {
+    margin-left: 100px;
+    height: 40px;
+    width: 180px;
+    margin-top: 10px;
+    color: white;
+    background-color: goldenrod;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    font-family: Helvetica, sans-serif;
+    font-weight: 800;
+  }
+  .sideBar{
+      float: right;
+      border: 2px solid rgb(14, 14, 14);
+      margin-top: 0px;
+      border-radius: 15px;
+  }
+  .div3{
+      clear: both;
+  }
+  .imgcontent{
+    border: 3px solid rgb(247, 159, 159);
+    border-radius: 15px;
+    background-color: rgb(1, 29, 54);
+  }
+  .mainimg{
+    border: 3px solid rgb(254, 254, 254);
+  }
+  p{
+    margin: 0;
+  }
+  .rating{
+    margin-top: 25px;
+  }
+  .imgTitle{
+    font-size: 20px;
+    text-align: center;
+    font-weight: 400;
+    font-family: Helvetica, sans-serif;
+    color: white;
+  }
+
+  .origMrp{
+    text-decoration: line-through;
+    color: blue;
+    margin: 80px;
+    font-weight: 800;
+    font-size: 25px;
+  }
+
+  .newMrp{
+    font-weight: 800;
+    font-size: 20px;
+  }

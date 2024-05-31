@@ -1,0 +1,144 @@
+
+.containerNav{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(7, 236, 106);
+    color: white;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    box-sizing: border-box;
+    
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+}
+ul li{
+    list-style: none;
+}
+.mainNav{
+    width: 300px;
+}
+button{
+    margin: 20px;
+    width: 80px;
+    height: 30px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    background-color: rgb(245, 146, 9);
+    color: white;
+}
+button:hover{
+    background-color: aquamarine;
+    color: white;
+}
+.logo{
+    padding-left: 40px;
+    text-decoration: none;
+    color: azure;
+}
+.logo a{
+    text-decoration: none;
+    color: azure;
+}
+/* ////////////////////////////////////////////////////main///////////////////////////////////////// */
+.bodyContent{
+    width: 100%;
+    height: 320px;
+    background-color: blueviolet;
+    margin-top: 50px; 
+}
+.imagePosition{
+    width: 400px;
+    height: 300px;
+    border-radius: 15px;
+    position: absolute;
+    right: 50px;
+    top: 3px;
+}
+.bodyContent h2, p{
+    color: white;
+   
+}
+.heding {
+padding-left: 120px;
+padding-top: 50px;
+}
+.heding h2{
+    font-size: 40px;
+}
+
+.heding p{
+    font-size: 20px;
+}
+/* ///////////////////////////////////////////section//////////////////////////////////////////// */
+ section{
+   margin-top: 50px;
+    width: 1350px;
+    height: 500px;
+}
+.flesxImg{
+    width: 300px;
+}
+.stickydiv{
+    position: sticky;
+    top: 50px;
+}
+
+.sectionm{
+    margin: 0px;
+    font-size: 35px;
+    font-family: Helvetica, sans-serif;
+    font-weight: 400;
+}
+
+.flexMap {
+    width: 300px;
+    border: 5px solid red;
+    margin: 30px;
+   
+
+}
+.sectiondiv{
+    color: white;
+    background-color: rgb(174, 106, 23);
+
+}
+.sectionp{
+    margin: 0;
+    font-size: 20px;
+    font-family: Helvetica, sans-serif;
+    padding: 10px;
+}
+.sectiondiv span {
+ margin-left: 180px;
+}
+.sectiondiv {
+    padding-left: 10px;
+    padding-top: 30px;
+}
+.mainSection{
+    display: flex;
+    justify-content: space-evenly;
+}
+section h2 {
+    text-align: center;
+    font-size: 40px;
+}
+.sectionm{
+    padding-right: 40px;
+}
+
+/* //////////////////////////////////////////////// Footer//////////////////////////////////// */
+
+ 
+ .second{
+     display: flex;
+     flex-direction: row;
+     justify-content: space-around;
+     background-color: rgb(47, 42, 42);
+     color: white;
+ }
+ 
